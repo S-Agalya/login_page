@@ -185,7 +185,7 @@ const RegisterForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [dob, setDob] = useState(null); // Initial state is 'null'
+  const [dob, setDob] = useState(null); 
 
   const navigate = useNavigate(); // Use this to navigate to login page
 
